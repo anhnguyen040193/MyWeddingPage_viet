@@ -485,7 +485,15 @@ figure {
 #fh5co-header .couple-main {
   width: 400px;
   border-radius: 50%;
+  background-image: url("../images/my/_HIO1614.jpg");
+  background-size: cover;
+  height: 550px;
 }
+#fh5co-header .box_image_head {
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (max-width: 480px) {
   #fh5co-header .couple-main {
     width: 250px;
