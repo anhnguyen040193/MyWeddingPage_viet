@@ -2518,4 +2518,40 @@ form label {
   opacity: 0.2;
   background-image: url(../images/background/blue-brush-1.jpg);
 }
+
+.flexBoxQR{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+.boxQR1{
+  display: flex;
+  flex-flow: column;
+  padding-right: 25px;
+}
+.boxQR2{
+  display: flex;
+  flex-flow: column;
+  padding-left: 25px;
+}
+
+@media (max-width: 768px) {
+  .flexBoxQR{
+    flex-flow: column;
+  }
+  .boxQR1{
+    width: 200px;
+    padding-right: 0;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #bf9b73;
+  }
+  .boxQR2{
+    width: 200px;
+    padding-left: 0;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #bf9b73;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
